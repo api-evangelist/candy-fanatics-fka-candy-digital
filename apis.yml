@@ -1,8 +1,26 @@
 aid: candy-fanatics-fka-candy-digital
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/candy-fanatics-fka-candy-digital.png
 name: Candy Fanatics (fka Candy Digital)
-description: 'Candy Fanatics (fka Candy Digital) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Candy Digital (branded simply as "Candy") is a digital collectibles platform operating
+  at candy.io under the tagline "Crave. Collect. Connect." It is best known for officially licensed
+  Major League Baseball (MLB) digital trading cards and NFT drops, sold through a consumer-facing,
+  wallet-native web application for buying, collecting, and trading licensed digital collectibles.
+  Founded in 2021 and backed by investors including Insight Partners, the company runs an active
+  consumer product (e.g. the 2026 MLB Base Series drops). The former candy.com domain has since been
+  divested and is now listed for acquisition via Hilco Digital Assets; the live brand and product run
+  at candy.io. Candy Digital is a consumer-facing product and does not currently publish a public API
+  program, developer portal, SDKs, or OpenAPI — this profile captures its real public web surface.'
 url: https://raw.githubusercontent.com/api-evangelist/candy-fanatics-fka-candy-digital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Web3
+- Digital Collectibles
+- NFT
+- MLB
+- Sports
+- Trading Cards
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/candy-fanatics-fka-candy-digital-domain-security.yml
 - type: Website
-  url: https://candy.com/#/
+  url: https://www.candy.io/
+- type: Blog
+  url: https://blog.candy.io/
+- type: Support
+  url: https://www.candy.io/faq
+- type: Login
+  url: https://www.candy.io/login
+- type: SignUp
+  url: https://www.candy.io/register
+- type: TermsOfService
+  url: https://www.candy.io/terms
+- type: PrivacyPolicy
+  url: https://www.candy.io/privacy
+- type: GitHubOrganization
+  url: https://github.com/candy-digital
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
